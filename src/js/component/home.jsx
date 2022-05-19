@@ -5,7 +5,7 @@ import React from "react";
 
 //create your first component
 
-import { Light } from "./light.js";
+import { Light } from "./light.jsx";
 
 //create your first component
 export function Home() {
