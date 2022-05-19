@@ -5,10 +5,10 @@ import React from "react";
 
 //create your first component
 
-import { Light } from "./light.jsx";
+import { Light } from "./light.js";
 
 //create your first component
-function Home() {
+export function Home() {
 	const colors = ["red", "yellow", "green"];
 	const [glow, setGlow] = useState("red");
 
@@ -31,4 +31,4 @@ function Home() {
 	);
 }
 
-export default Home; 
+export default Home;
