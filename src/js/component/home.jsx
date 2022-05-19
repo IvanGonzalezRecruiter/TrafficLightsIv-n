@@ -8,7 +8,7 @@ import React from "react";
 import { Light } from "./light.jsx";
 
 //create your first component
-export function Home() {
+function Home() {
 	const colors = ["red", "yellow", "green"];
 	const [glow, setGlow] = useState("red");
 
@@ -30,3 +30,5 @@ export function Home() {
 		</div>
 	);
 }
+
+export default Home; 

@@ -10,3 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.trafficLight {
+    width: 20vw;
+    height: 60vh;
+    background-color: black;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border: none;
+}
